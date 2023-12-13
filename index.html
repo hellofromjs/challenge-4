@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="app.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container d-flex flex-column">
+	<div>
+		<label for="add_product">Add Product</label>
+		<div id="add_product" class="hide box">
+			<form>
+				<input type="text" name="prod_name" placeholder="Name">
+				<input type="number" name="prod_price" placeholder="Price">
+				<input type="number" name="prod_amount" placeholder="Amount">
+				<button type="submit">Add</button>
+			</form>
+		</div>
+	</div>
+
+	<div>
+		<label for="transfer_products">Transfer Products</label>
+		<div id="transfer_products" class="hide box">
+			<form>
+				<input type="text" name="prod_name" placeholder="Name">
+				<input type="number" name="prod_amount" placeholder="Amount">
+				<button type="submit">Transfer</button>
+			</form>
+		</div>
+	</div>
+
+	<div>
+		<label for="update_product">Update Product</label>
+		<div id="update_product" class="hide box">
+			<form>
+				<input type="text" name="prod_name" placeholder="Name">
+				<input type="number" name="prod_price" placeholder="Price">
+				<input type="number" name="prod_amount" placeholder="Amount">
+				<button type="submit">Update</button>
+			</form>
+		</div>
+	</div>
+
+	<h2>Products:</h2>
+	<div id="remaining_products"></div>
+</body>
+
+</html>

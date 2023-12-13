@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+}
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+.d-flex {
+	display: flex;
+}
+.flex-column {
+	flex-flow: column;
+}
+label {
+	cursor: pointer;
+	background-color: darkslategrey;
+	padding: 10px 20px;
+	border-radius: 8px;
+	display: inline-block;
+	color: white;
+}
+.container {
+	gap: 10px;
+}
+.box {
+	margin-top: 10px;
+}
+.cheapest {
+	background-color: green;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+}
