@@ -95,6 +95,10 @@ add_product_block.querySelector('button').addEventListener('click', e => {
 	const prod_amount_input = add_product_block.querySelector('[name="prod_amount"]')
 	
 	add_product(prod_name_input.value, prod_price_input.value, prod_amount_input.value)
+
+	prod_name_input.value = ""
+	prod_price_input.value = ""
+	prod_amount_input.value = ""
 })
 
 
@@ -113,6 +117,9 @@ transfer_products_block.querySelector('button').addEventListener('click', e => {
 	const prod_amount_input = transfer_products_block.querySelector('[name="prod_amount"]')
 	
 	transfer_product(prod_name_input.value, prod_amount_input.value)
+
+	prod_name_input.value = ""
+	prod_amount_input.value = ""
 })
 
 
@@ -132,6 +139,10 @@ update_product_block.querySelector('button').addEventListener('click', e => {
 	const prod_amount_input = update_product_block.querySelector('[name="prod_amount"]')
 	
 	update_product(prod_name_input.value, prod_price_input.value, prod_amount_input.value)
+
+	prod_name_input.value = ""
+	prod_price_input.value = ""
+	prod_amount_input.value = ""
 })
 
 
